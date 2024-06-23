@@ -278,6 +278,7 @@ a:focus {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    margin-top: 40%;
 }
 
 .hero .hero-text p {
@@ -306,6 +307,10 @@ a:focus {
 
 .hero .hero-text .typed-text {
     display: none;
+}
+
+.row{
+    margin-bottom: 27%;
 }
 
 .hero .hero-text .typed-cursor {
@@ -555,7 +560,7 @@ a:focus {
 /*******************************/
 .experience {
     position: relative;
-    padding: 45px 0 15px 0;
+    padding: 0px 0 0px 0;
 }
 
 .experience .timeline {
@@ -571,7 +576,7 @@ a:focus {
     top: 0;
     bottom: 0;
     left: 50%;
-    margin-left: -1px;
+    margin-left:0px;
 }
 
 .experience .timeline .timeline-item {
@@ -1203,3 +1208,15 @@ a:focus {
     margin-bottom: 1em;
     text-align: justify;
   }
+
+
+
+
+.profile {
+    border-radius: 50%;
+    height: 62%;
+    width: 62%;
+    margin-top: 40%;
+}
+
+
