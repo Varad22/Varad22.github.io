@@ -116,3 +116,10 @@ function showDivs(n, no) {
   }
   x[slideIndex[no] - 1].style.display = "block";
 }
+
+pdfSrc='https://drive.google.com/file/d/1OCrz5UWPhYoOYF13i0zrVm38tw18XBuB/view';
+
+ download(){
+    var redirectWindow = window.open(this.pdfSrc, '_blank');
+    redirectWindow.location;
+ }
